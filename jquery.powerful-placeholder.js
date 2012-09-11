@@ -68,7 +68,7 @@
 				}	
 			};
                         
-                        $('head').append('<style type="text/css" media="screen">[placeholder]:focus::-webkit-input-placeholder { color:transparent; }</style>');
+                        $('head').append('<style type="text/css" media="screen">[placeholder]:focus::-webkit-input-placeholder { color:transparent; }[placeholder]:focus:-moz-placeholder { color: transparent; }</style>');
 			
                         var elementSupportsAttribute = function(element, attribute) {
                                var test = document.createElement(element);
